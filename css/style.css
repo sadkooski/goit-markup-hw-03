@@ -19,7 +19,7 @@
 body {
   background: #ffffff;
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .container h1 {
@@ -139,8 +139,9 @@ body {
   color: var(--title-color);
 }
 
-.navigation li:not(:last-child) {
-  margin-right: 46px;
+.navigation {
+  display: flex;
+  gap: 42px;
 }
 
 .navigation {
@@ -159,6 +160,7 @@ body {
 }
 
 .contacts-header {
+  display: flex;
   margin-top: 32px;
   text-decoration: none;
   list-style-type: none;
@@ -168,10 +170,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-color);
   padding: 0px;
-}
-
-.contacts-header li:first-child {
-  margin-right: 50px;
+  gap: 50px;
 }
 
 .contacts-footer a,
@@ -215,6 +214,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  gap: 8px;
 }
 
 .buttons button {
@@ -227,10 +227,6 @@ body {
   color: var(--title-color);
   border-radius: 4px;
   border: none;
-}
-
-.buttons li:not(:last-child) {
-  margin-right: 8px;
 }
 
 .buttons button:hover,
@@ -310,10 +306,6 @@ body {
   justify-content: flex-start;
 }
 
-.paragraphs li:not(:last-child) {
-  margin-right: 30px;
-}
-
 .work {
   justify-content: center;
   display: flex;
@@ -330,8 +322,8 @@ body {
   margin-top: -94px;
 }
 
-.work li:not(:last-child) {
-  margin-right: 30px;
+.work {
+  gap: 30px;
 }
 
 .employees {
@@ -342,6 +334,7 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
+  gap: 30px;
 }
 
 .employees li {
@@ -351,10 +344,6 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--background-white);
-}
-
-.employees li:not(:last-child) {
-  margin-right: 30px;
 }
 
 .employees-names {
