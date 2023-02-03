@@ -64,6 +64,10 @@ body {
   color: var(--text-color);
 }
 
+.paragraphs ul {
+  gap: 30px;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
