@@ -19,7 +19,7 @@
 }
 
 body {
-  background: #ffffff;
+  background: var(--background-white);
   font-family: "Roboto", sans-serif;
   color: var(--title-color);
 }
