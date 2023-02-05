@@ -6,6 +6,8 @@
   --text-color: #757575;
   --active-color: #2196f3;
   --contacts-footer: rgba(255, 255, 255, 0.6);
+  --img-text: #eeeeee;
+  --header-border: #ececec;
 }
 
 *,
@@ -83,7 +85,7 @@ body {
 /* HEADER and FOOTER*/
 
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid var(--header-border);
 }
 
 .header-elements {
@@ -272,9 +274,9 @@ body {
 
 .img-text {
   padding: 24px 20px;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid var(--img-text);
+  border-left: 1px solid var(--img-text);
+  border-right: 1px solid var(--img-text);
 }
 
 /* MAIN INDEX */
